@@ -55,7 +55,7 @@ img {
   min-height: 100vh;
 }
 
-/* ---------- Sprockets ---------- */
+
 .sprockets {
   display: flex;
   gap: 12px;
@@ -69,7 +69,7 @@ img {
   flex-shrink: 0;
 }
 
-/* ---------- Navbar ---------- */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -143,7 +143,6 @@ img {
   }
 }
 
-/* ---------- Buttons & pills ---------- */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -189,7 +188,7 @@ img {
   border: 1px solid rgba(232, 199, 126, 0.3);
 }
 
-/* ---------- Hero (Home) ---------- */
+
 .hero {
   position: relative;
   padding: 32px 20px 44px;
@@ -239,7 +238,6 @@ img {
   }
 }
 
-/* ---------- Genre nav grid (Home) ---------- */
 .genre-nav {
   padding: 36px 20px 8px;
 }
@@ -277,7 +275,6 @@ img {
   }
 }
 
-/* ---------- Page (genre pages, All) ---------- */
 .page {
   padding: 28px 20px 12px;
   max-width: 1200px;
@@ -306,7 +303,7 @@ img {
   margin: 0;
 }
 
-/* ---------- Movie grid & card ---------- */
+
 .movie-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -390,7 +387,7 @@ img {
   }
 }
 
-/* ---------- Loader / error / empty states ---------- */
+
 .loader,
 .error-state,
 .empty-state {
@@ -416,7 +413,7 @@ img {
   line-height: 1.6;
 }
 
-/* ---------- Modal ---------- */
+
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -487,7 +484,7 @@ img {
   flex-wrap: wrap;
 }
 
-/* ---------- Footer ---------- */
+
 .footer {
   margin-top: auto;
   padding: 30px 20px;
