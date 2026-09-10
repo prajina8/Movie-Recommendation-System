@@ -1,7 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Loader } from "lucide-react";
 import { fetchTrending } from "../api/tmdb.js";
 import { useMovieFetch } from "../hooks/useMovieFetch.js";
+import MovieModal from "../components/MovieModal.jsx";
+import ErrorMessage from "../components/ErrorMessage.jsx";
+import Hero from "../components/Hero.jsx";
+import MovieGrid from "../components/MovieGrid.jsx";
 import { GENRES } from "../data/genres.js";
 
 

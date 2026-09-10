@@ -1,4 +1,3 @@
-// TMDB genre IDs — https://developer.themoviedb.org/reference/genre-movie-list
 export const GENRES = [
   { id: 28, slug: "action", name: "Action", path: "/action" },
   { id: 35, slug: "comedy", name: "Comedy", path: "/comedy" },
